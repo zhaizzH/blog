@@ -20,7 +20,6 @@ import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
 
 export default {
-  base: "/blog/",
   extends: Teek,
   Layout: TeekLayoutProvider,
 };

@@ -13,6 +13,7 @@ export default defineConfig({
   extends: teekConfig,
   title: "宅宅宅的个人博客",
   description: description,
+  base: "/blog/",
   cleanUrls: false,
   lastUpdated: true,
   lang: "zh-CN",
