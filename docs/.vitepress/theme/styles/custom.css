@@ -1,0 +1,21 @@
+.vp-doc h2 {
+    white-space: nowrap;
+}
+
+/* 去掉二级标题里链接的下划线 */
+.vp-doc h2 a {
+    text-decoration: none;
+}
+
+/* 保证图片与文字垂直对齐，避免高度错位导致换行 */
+.vp-doc h2 img {
+    display: inline;
+    vertical-align: middle;
+}
+
+/* 禁止标题内图片触发点击放大（点击穿透给链接） */
+.vp-doc h2 a img {
+    pointer-events: none;
+    vertical-align: middle;
+    /* 让图标和文字对齐更美观 */
+}
