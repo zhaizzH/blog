@@ -70,8 +70,14 @@ export default defineConfig({
         link: "/guide/intro",
         activeMatch: "/01.指南/",
       },
-      { text: "配置", link: "/reference/config", activeMatch: "/10.配置/" },
-      { text: "开发", link: "/develop/intro", activeMatch: "/15.主题开发/" },
+      { text: "配置", 
+        link: "/reference/config", 
+        activeMatch: "/10.配置/" 
+      },
+      { text: "备忘录", 
+        link: "/memo/cmd-proxy", 
+        activeMatch: "/03.备忘录/" 
+      },
       {
         text: "功能页",
         items: [
@@ -86,7 +92,6 @@ export default defineConfig({
           { text: "标签页", link: "/tags" },
         ],
       },
-      { text: "赞赏", link: "/personal/" },
     ],
     socialLinks: [
       {
