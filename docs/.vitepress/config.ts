@@ -43,11 +43,11 @@ export default defineConfig({
       { text: "首页", link: "/" },
       {
         text: "指南",
-        link: "/guide/intro",
-        activeMatch: "/01.指南/",
+        link: "/guide/cmd-proxy",
+        activeMatch: "/02.指南/",
       },
       { text: "备忘录", 
-        link: "/memo/cmd-proxy", 
+        link: "/memo/android-apk", 
         activeMatch: "/03.备忘录/" 
       },
       {
