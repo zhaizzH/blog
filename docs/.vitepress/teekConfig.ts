@@ -84,14 +84,10 @@ export const teekConfig = defineTeekConfig({
     // 主题版权配置
     theme: {
       show: false, // 是否显示主题版权，建议显示
-      name: "", // 自定义名称
-      link: "", // 自定义链接
     },
     // 博客版权配置
     copyright: {
-      show: true, // 是否显示博客版权
-      createYear: 2025, // 创建年份
-      suffix: "宅宅宅 Blog", // 后缀
+      show: false, // 是否显示博客版权
     },
   },
   // 文章页底部的最近更新栏配置
