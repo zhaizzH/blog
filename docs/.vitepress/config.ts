@@ -6,7 +6,7 @@ import { teekConfig } from "./teekConfig";
 export default defineConfig({
   extends: teekConfig,
   title: "ZzzVitePress",
-  base: "/docs/",
+  base: "/blog/",
   cleanUrls: false,
   lastUpdated: true,
   lang: "zh-CN",
@@ -46,10 +46,6 @@ export default defineConfig({
         link: "/guide/intro",
         activeMatch: "/01.指南/",
       },
-      { text: "配置", 
-        link: "/reference/config", 
-        activeMatch: "/10.配置/" 
-      },
       { text: "备忘录", 
         link: "/memo/cmd-proxy", 
         activeMatch: "/03.备忘录/" 
@@ -59,11 +55,6 @@ export default defineConfig({
         items: [
           { text: "归档页", link: "/archives" },
           { text: "清单页", link: "/articleOverview" },
-          { text: "登录页", link: "/login" },
-          {
-            text: "风险链接提示页",
-            link: "/risk-link?target=https://vp.teek.top",
-          },
           { text: "分类页", link: "/categories" },
           { text: "标签页", link: "/tags" },
         ],
