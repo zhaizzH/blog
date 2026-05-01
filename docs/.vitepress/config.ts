@@ -6,7 +6,7 @@ import { teekConfig } from "./teekConfig";
 export default defineConfig({
   extends: teekConfig,
   title: "ZzzVitePress",
-  base: "/blog/",
+  base: "/",
   cleanUrls: false,
   lastUpdated: true,
   lang: "zh-CN",
