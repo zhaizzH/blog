@@ -7,6 +7,10 @@ export default defineConfig({
   extends: teekConfig,
   title: "ZzzBlog",
   base: "/",
+  head: [
+    ["link", { rel: "icon", type: "image/png", href: "/avatar.png" }],
+    ["link", { rel: "apple-touch-icon", type: "image/png", href: "/avatar.png" }]
+  ],
   cleanUrls: false,
   lastUpdated: true,
   lang: "zh-CN",
