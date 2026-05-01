@@ -5,7 +5,7 @@ import { teekConfig } from "./teekConfig";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "ZzzVitePress",
+  title: "ZzzBlog",
   base: "/",
   cleanUrls: false,
   lastUpdated: true,
