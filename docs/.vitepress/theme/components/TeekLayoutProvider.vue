@@ -2,6 +2,7 @@
 import Teek from "vitepress-theme-teek";
 import ContributeChart from "./ContributeChart.vue";
 import NotFound from "./404.vue";
+import CalendarCard from './CalendarCard.vue'
 
 </script>
 
@@ -13,6 +14,10 @@ import NotFound from "./404.vue";
 
     <template #not-found>
       <NotFound />
+    </template>
+
+    <template #teek-home-card-my-after>
+      <CalendarCard />
     </template>
   </Teek.Layout>
 </template>
