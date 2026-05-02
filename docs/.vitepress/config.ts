@@ -5,7 +5,7 @@ import { teekConfig } from "./teekConfig";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "ZzzBlog",
+  title: "zzz's Blog",
   base: "/",
   head: [
     ["link", { rel: "icon", type: "image/png", href: "/avatar.png" }],
@@ -91,6 +91,7 @@ export default defineConfig({
             footer: {
               selectText: "选择",
               navigateText: "切换",
+              closeText: "关闭",
             },
           },
         },
@@ -100,8 +101,4 @@ export default defineConfig({
   vite: {
     plugins: [llmstxt() as any],
   },
-  // transformHtml: (code, id, context) => {
-  //   if (context.page !== "404.md") return code;
-  //   return code.replace("404 | ", "");
-  // },
 });
