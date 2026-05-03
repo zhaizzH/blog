@@ -10,7 +10,7 @@ export default defineConfig({
   base: "/",
   head: [
     ["link", { rel: "icon", type: "image/png", href: "/avatar.png" }],
-    ["link", { rel: "apple-touch-icon", type: "image/png", href: "/avatar.png" }]
+    ["link", { rel: "apple-touch-icon", type: "image/png", href: "/avatar.png" }],
   ],
   cleanUrls: false,
   lastUpdated: true,
@@ -103,8 +103,18 @@ export default defineConfig({
   vite: {
     plugins: [
       RssPlugin({
+        filter: (post) => {
+          if (post.filepath.includes('@pages/')) {
+            return false
+          }
+          if (post.filepath.includes('01.目录.md')) {
+            return false
+          }
+          return true
+        },
         title: 'zzz\' Blog',
         baseUrl: 'https://zhaizz.top',
+        limit: 3,
       })
     ]
   },
