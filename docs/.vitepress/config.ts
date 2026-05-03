@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import llmstxt from "vitepress-plugin-llms";
 import { teekConfig } from "./teekConfig";
+import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -50,9 +51,10 @@ export default defineConfig({
         link: "/guide/cmd-proxy",
         activeMatch: "/02.指南/",
       },
-      { text: "备忘录", 
-        link: "/memo/android-apk", 
-        activeMatch: "/03.备忘录/" 
+      {
+        text: "备忘录",
+        link: "/memo/android-apk",
+        activeMatch: "/03.备忘录/"
       },
       {
         text: "功能页",
@@ -99,6 +101,11 @@ export default defineConfig({
     },
   },
   vite: {
-    plugins: [llmstxt() as any],
+    plugins: [
+      RssPlugin({
+        title: 'zzz\' Blog',
+        baseUrl: 'https://zhaizz.top',
+      })
+    ]
   },
 });
