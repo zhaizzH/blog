@@ -35,9 +35,9 @@ export const teekConfig = defineTeekConfig({
     description: ["Eat, sleep and drink well"], // 描述信息
     switchTime: 4000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
-    typesInTime: 150, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
+    typesInTime: 230, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
     typesOutTime: 100, // 删除一个文字的时间，单位：毫秒。descStyle 为 types 时生效
-    typesNextTime: 1000, // 打字与删字的间隔时间，单位：毫秒。descStyle 为 types 时生效
+    typesNextTime: 1800, // 打字与删字的间隔时间，单位：毫秒。descStyle 为 types 时生效
     typesShuffle: false, // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
     features: [{ title: "", details: "", link: "", image: "" }], // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
     featureCarousel: 4000, // feature 轮播间隔时间，单位：毫秒。仅在移动端生效（屏幕小于 719px）
@@ -115,7 +115,7 @@ export const teekConfig = defineTeekConfig({
   footerInfo: {
     // 主题版权配置
     theme: {
-      show: false, // 是否显示主题版权，建议显示
+      show: true, // 是否显示主题版权
     },
     // 博客版权配置
     copyright: {
