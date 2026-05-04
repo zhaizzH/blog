@@ -107,7 +107,7 @@ export default defineConfig({
           if (post.filepath.includes('@pages/')) {
             return false
           }
-          if (post.filepath.includes('01.目录.md')) {
+          if (post.filepath.endsWith('目录.md')) {
             return false
           }
           return true
