@@ -113,7 +113,7 @@ export default defineConfig({
           return true
         },
         title: 'zzz\' Blog',
-        baseUrl: 'https://www.zhaizz.top',
+        baseUrl: 'https://zhaizz.top',
         limit: 3,
       })
     ]
