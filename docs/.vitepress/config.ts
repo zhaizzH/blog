@@ -12,7 +12,7 @@ export default defineConfig({
     ["link", { rel: "apple-touch-icon", type: "image/png", href: "/avatar.png" }],
     ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'RSS 订阅', href: '/feed.rss' }]
   ],
-  cleanUrls: false,
+  cleanUrls: true,
   lastUpdated: true,
   lang: "zh-CN",
   markdown: {
@@ -113,7 +113,7 @@ export default defineConfig({
           return true
         },
         title: 'zzz\' Blog',
-        baseUrl: 'https://zhaizz.top',
+        baseUrl: 'https://blog.zhaizz.top',
         limit: 3,
       })
     ]
