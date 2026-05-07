@@ -100,6 +100,9 @@ export default defineConfig({
       },
     },
   },
+  sitemap: {
+    hostname: 'https://blog.zhaizz.top',
+  },
   vite: {
     plugins: [
       RssPlugin({

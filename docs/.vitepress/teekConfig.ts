@@ -119,15 +119,18 @@ export const teekConfig = defineTeekConfig({
       },
     ],
   },
-    // 页脚配置
+  // 页脚配置
   footerInfo: {
+    bottomMessage: '<a href="/sitemap.xml" target="_blank" style="opacity:0.75;text-decoration:none;">Site Map</a>',
     // 主题版权配置
     theme: {
       show: true, // 是否显示主题版权
     },
     // 博客版权配置
     copyright: {
-      show: false, // 是否显示博客版权
+      show: true,
+      createYear: 2025,
+      suffix: "宅宅宅的博客",
     },
   },
   // 文章页底部的最近更新栏配置
