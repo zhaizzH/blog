@@ -6,7 +6,6 @@ export const teekConfig = defineTeekConfig({
   teekHome: true, // 是否开启博客首页
   vpHome: false, // 是否启用 VitePress 首页风格，支持 teekHome 和 vpHome 同时存在
   sidebarTrigger: true, // 是否开启侧边栏折叠功能
-  author: { name: "宅宅宅", link: "https://github.com/xiaozhai801" },
   codeBlock: {
     copiedDone: (TkMessage) => TkMessage.success("复制成功！"),
   },
@@ -30,7 +29,7 @@ export const teekConfig = defineTeekConfig({
     maskBg: "rgba(0, 0, 0, 0.4)", // Banner 遮罩颜色，如果为数字，则是 rgba(0, 0, 0, ${maskBg})，如果为字符串，则作为背景色。bgStyle 为 partImg 或 fullImg 且 mask 为 true 时生效
     textColor: "#ffffff", // Banner 字体颜色，bgStyle 为 pure 时为 '#000000'，其他为 '#ffffff'
     titleFontSize: "3.2rem", // 标题字体大小
-    descFontSize: "2.4rem", // 描述字体大小
+    descFontSize: "2.7rem", // 描述字体大小
     descStyle: "types", // 描述信息风格：default 为纯文字渲染风格（如果 description 为数组，则取第一个），types 为文字打印风格，switch 为文字切换风格
     description: ["Eat, sleep and drink well"], // 描述信息
     switchTime: 4000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
@@ -45,7 +44,7 @@ export const teekConfig = defineTeekConfig({
   // 壁纸模式，在首页 最顶部 进入全屏后开启，仅当 banner.bgStyle = 'fullImg' 或 bodyBgImg.imgSrc 存在才生效。
   wallpaper: {
     enabled: true, // 是否启用壁纸模式
-    hideBanner: false, // 开启壁纸模式后，是否隐藏 Banner
+    hideBanner: true, // 开启壁纸模式后，是否隐藏 Banner
     hideMask: false, // 开启壁纸模式后，是否隐藏 Banner 或 bodyBgImage 的遮罩层，则确保 banner.mask 和 bodyBgImage.mask 为 true 才生效
   },
   // 博主信息，显示在首页左边第一个卡片。
@@ -63,6 +62,15 @@ export const teekConfig = defineTeekConfig({
       size: 24, // 图标大小
       title: "sleep...", // 鼠标悬停图标的提示语
     },
+  },
+  // 文章配置
+  post: {
+    postStyle: "list", // 文章列表风格
+    excerptPosition: "top", // 文章摘要位置
+    showMore: true, // 是否显示更多按钮
+    moreLabel: "阅读全文 >", // 更多按钮文字
+    emptyLabel: "暂无文章", // 文章列表为空时的标签
+    showCapture: true, // 是否在摘要位置显示文章部分文字，当为 true 且不使用 frontmatter.describe 和 <!-- more --> 时，会自动截取前 300 个字符作为摘要
   },
   // 精选文章卡片配置
   topArticle: {
@@ -124,8 +132,7 @@ export const teekConfig = defineTeekConfig({
   },
   // 文章页底部的最近更新栏配置
   articleUpdate: {
-    enabled: true, // 是否启用文章最近更新栏
-    limit: 3, // 文章最近更新栏显示数量
+    enabled: false, // 是否启用文章最近更新栏
   },
   // 滚动到评论区配置
   toComment: {
