@@ -20,10 +20,9 @@ export const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用 Banner
     name: "", // Banner 标题，默认读取 vitepress 的 title 属性
     bgStyle: "fullImg", // Banner 背景风格：pure 为纯色背景，partImg 为局部图片背景，fullImg 为全屏图片背景
-    pureBgColor: "#28282d", // Banner 背景色，bgStyle 为 pure 时生效
-    imgSrc: ["/background.png"], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
+    imgSrc: ["https://img.zhaizz.top/file/background/1778138055855_112167497_p0.png","https://img.zhaizz.top/file/background/1778138052971_81471534_p0.jpg","https://img.zhaizz.top/file/background/1778138036830_1.png"], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
     imgInterval: 15000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
-    imgShuffle: false, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
+    imgShuffle: true, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
     imgWaves: true, // 是否开启 Banner 图片波浪纹，bgStyle 为 fullImg 时生效
     mask: true, // Banner 图片遮罩，bgStyle 为 partImg 或 fullImg 时生效
     maskBg: "rgba(0, 0, 0, 0.4)", // Banner 遮罩颜色，如果为数字，则是 rgba(0, 0, 0, ${maskBg})，如果为字符串，则作为背景色。bgStyle 为 partImg 或 fullImg 且 mask 为 true 时生效
@@ -52,7 +51,7 @@ export const teekConfig = defineTeekConfig({
     name: "宅宅宅", // 博主昵称
     avatar: "avatar.png", // 博主头像
     shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
-    circleBgImg: "avatar-background.png", // 背景图片
+    circleBgImg: "https://img.zhaizz.top/file/avatar/1778138324526_avatar-background.png", // 背景图片
     circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
     circleSize: 100, // 头像大小
     color: "#ffffff", // 字体颜色
