@@ -77,6 +77,12 @@ export default defineConfig({
         },
         link: 'https://space.bilibili.com/452972953'
       },
+      {
+        icon: {
+          svg: '<svg t="1778230426404" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1021.407 146.857L512.645 574.783 3.909 146.857zM0.007 183.402L339.886 471.24 0.007 876.743z" p-id="1693"></path><path d="M39.354 877.144L363.529 494.4 512.54 616.772l149.274-126.179 324.157 386.551zM1023.993 876.743L684.122 471.24l339.871-287.838z" p-id="1694"></path></svg>'
+        },
+        link: 'mailto:zhaimou81@qq.com',
+      },
     ],
     // 设置搜索框的样式
     search: {

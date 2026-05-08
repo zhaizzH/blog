@@ -124,7 +124,7 @@ export const teekConfig = defineTeekConfig({
   },
   // 页脚配置
   footerInfo: {
-    bottomMessage: '<a href="/sitemap.xml" target="_blank">Site Map</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">Github</a>',
+    bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">GitHub</a>',
     // 主题版权配置
     theme: {
       show: true, // 是否显示主题版权
