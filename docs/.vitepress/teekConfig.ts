@@ -20,8 +20,12 @@ export const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用 Banner
     name: "", // Banner 标题，默认读取 vitepress 的 title 属性
     bgStyle: "fullImg", // Banner 背景风格：pure 为纯色背景，partImg 为局部图片背景，fullImg 为全屏图片背景
-    imgSrc: ["https://img.zhaizz.top/file/background/1778138055855_112167497_p0.png","https://img.zhaizz.top/file/background/1778138052971_81471534_p0.jpg","https://img.zhaizz.top/file/background/1778138036830_1.png"], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
-    imgInterval: 15000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
+    imgSrc: ["https://img.zhaizz.top/file/background/1778138055855_112167497_p0.png",
+      "https://img.zhaizz.top/file/background/1778138052971_81471534_p0.jpg",
+      "https://img.zhaizz.top/file/background/1778138036830_1.png",
+      "https://img.zhaizz.top/file/background/1778143436352_2.png"
+    ], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
+    imgInterval: 13000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
     imgShuffle: true, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
     imgWaves: true, // 是否开启 Banner 图片波浪纹，bgStyle 为 fullImg 时生效
     mask: true, // Banner 图片遮罩，bgStyle 为 partImg 或 fullImg 时生效
@@ -49,7 +53,7 @@ export const teekConfig = defineTeekConfig({
   // 博主信息，显示在首页左边第一个卡片。
   blogger: {
     name: "宅宅宅", // 博主昵称
-    avatar: "avatar.png", // 博主头像
+    avatar: "https://img.zhaizz.top/file/avatar/obVInnoY.png", // 博主头像
     shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
     circleBgImg: "https://img.zhaizz.top/file/avatar/1778138324526_avatar-background.png", // 背景图片
     circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
@@ -120,7 +124,7 @@ export const teekConfig = defineTeekConfig({
   },
   // 页脚配置
   footerInfo: {
-    bottomMessage: '<a href="/sitemap.xml" target="_blank" style="opacity:0.75;text-decoration:none;">Site Map</a>',
+    bottomMessage: '<a href="/sitemap.xml" target="_blank">Site Map</a>',
     // 主题版权配置
     theme: {
       show: true, // 是否显示主题版权
