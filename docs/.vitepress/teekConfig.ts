@@ -23,7 +23,8 @@ export const teekConfig = defineTeekConfig({
     imgSrc: ["https://img.zhaizz.top/file/background/1778138055855_112167497_p0.png",
       "https://img.zhaizz.top/file/background/1778138052971_81471534_p0.jpg",
       "https://img.zhaizz.top/file/background/1778138036830_1.png",
-      "https://img.zhaizz.top/file/background/1778143436352_2.png"
+      "https://img.zhaizz.top/file/background/1778143436352_2.png",
+      "https://img.zhaizz.top/file/blog-website/cf-ip-opt/8oRBp3Yo.png"
     ], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
     imgInterval: 13000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
     imgShuffle: true, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
