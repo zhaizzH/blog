@@ -8,8 +8,8 @@ export default defineConfig({
   title: "zzz's Blog",
   base: "/",
   head: [
-    ["link", { rel: "icon", type: "image/png", href: "https://img.zhaizz.top/file/avatar/obVInnoY.png" }],
-    ["link", { rel: "apple-touch-icon", type: "image/png", href: "https://img.zhaizz.top/file/avatar/obVInnoY.png" }],
+    ["link", { rel: "icon", type: "image/png", href: "/avatar.png" }],
+    ["link", { rel: "apple-touch-icon", type: "image/png", href: "/avatar.png" }],
     ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'RSS 订阅', href: '/feed.rss' }]
   ],
   cleanUrls: true,

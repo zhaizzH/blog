@@ -53,7 +53,7 @@ export const teekConfig = defineTeekConfig({
   // 博主信息，显示在首页左边第一个卡片。
   blogger: {
     name: "宅宅宅", // 博主昵称
-    avatar: "https://img.zhaizz.top/file/avatar/obVInnoY.png", // 博主头像
+    avatar: "/avatar.png", // 博主头像
     shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
     circleBgImg: "https://img.zhaizz.top/file/avatar/1778138324526_avatar-background.png", // 背景图片
     circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
@@ -124,7 +124,7 @@ export const teekConfig = defineTeekConfig({
   },
   // 页脚配置
   footerInfo: {
-    bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">GitHub</a>&nbsp;|&nbsp;<a href="https://mail.zhaizz.top/" target="_blank">Mail</a>',
+    bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">GitHub</a>&nbsp;|&nbsp;<a href="https://mail.zhaizz.top/" target="_blank">TempMail</a>',
     // 主题版权配置
     theme: {
       show: true, // 是否显示主题版权
