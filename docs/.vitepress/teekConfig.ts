@@ -6,7 +6,6 @@ export const teekConfig = defineTeekConfig({
   teekHome: true, // 是否启用 Teek 的首页风格（博客风格），如果为 false，则还原到 VitePress 的默认首页
   vpHome: true, // 是否启用 VitePress 首页风格，支持 teekHome 和 vpHome 同时存在
   sidebarTrigger: true, // 是否开启侧边栏折叠功能
-  themeSize: "wide", // 站点尺寸，默认为 medium
   // 代码块配置
   codeBlock: {
     enabled: true, // 是否启用新版代码块
