@@ -26,7 +26,7 @@ export const teekConfig = defineTeekConfig({
       "https://img.zhaizz.top/file/background/1778143436352_2.png",
       "https://img.zhaizz.top/file/background/8oRBp3Yo.png"
     ], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
-    imgInterval: 13000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
+    imgInterval: 30000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
     imgShuffle: true, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
     imgWaves: true, // 是否开启 Banner 图片波浪纹，bgStyle 为 fullImg 时生效
     mask: true, // Banner 图片遮罩，bgStyle 为 partImg 或 fullImg 时生效
@@ -56,7 +56,7 @@ export const teekConfig = defineTeekConfig({
     name: "宅宅宅", // 博主昵称
     avatar: "/avatar.png", // 博主头像
     shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
-    circleBgImg: "https://img.zhaizz.top/file/avatar/1778138324526_avatar-background.png", // 背景图片
+    circleBgImg: "/avatar-background.png", // 背景图片
     circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
     circleSize: 100, // 头像大小
     color: "#ffffff", // 字体颜色
