@@ -157,7 +157,7 @@ export const teekConfig = defineTeekConfig({
   
   // 页脚配置
   footerInfo: {
-    bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">ProxyGitHub</a>&nbsp;|&nbsp;<a href="https://mail.zhaizz.top/" target="_blank">Mail</a>&nbsp;|&nbsp;<a href="https://img.zhaizz.top/" target="_blank">ImgHub</a>',
+    bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="https://blog.zhaizz.top/feed.rss" target="_blank">RSS</a>',
     // 主题版权配置
     theme: {
       show: true, // 是否显示主题版权
