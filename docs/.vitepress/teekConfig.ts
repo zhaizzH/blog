@@ -24,7 +24,7 @@ export const teekConfig = defineTeekConfig({
       "https://img.zhaizz.top/file/background/1778138052971_81471534_p0.jpg",
       "https://img.zhaizz.top/file/background/1778138036830_1.png",
       "https://img.zhaizz.top/file/background/1778143436352_2.png",
-      "https://img.zhaizz.top/file/blog-website/cf-ip-opt/8oRBp3Yo.png"
+      "https://img.zhaizz.top/file/background/8oRBp3Yo.png"
     ], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
     imgInterval: 13000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
     imgShuffle: true, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
@@ -125,7 +125,7 @@ export const teekConfig = defineTeekConfig({
   },
   // 页脚配置
   footerInfo: {
-    bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">GitHub</a>&nbsp;|&nbsp;<a href="https://mail.zhaizz.top/" target="_blank">TempMail</a>',
+    bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">ProxyGitHub</a>&nbsp;|&nbsp;<a href="https://mail.zhaizz.top/" target="_blank">Mail</a>&nbsp;|&nbsp;<a href="https://img.zhaizz.top/" target="_blank">ImgHub</a>',
     // 主题版权配置
     theme: {
       show: true, // 是否显示主题版权
