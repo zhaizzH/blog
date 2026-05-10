@@ -3,16 +3,48 @@ import { version } from "vitepress-theme-teek/es/version";
 
 export const teekConfig = defineTeekConfig({
   teekTheme: true, // 是否启用 Teek 主题
-  teekHome: true, // 是否开启博客首页
-  vpHome: false, // 是否启用 VitePress 首页风格，支持 teekHome 和 vpHome 同时存在
+  teekHome: true, // 是否启用 Teek 的首页风格（博客风格），如果为 false，则还原到 VitePress 的默认首页
+  vpHome: true, // 是否启用 VitePress 首页风格，支持 teekHome 和 vpHome 同时存在
   sidebarTrigger: true, // 是否开启侧边栏折叠功能
+  themeSize: "wide", // 站点尺寸，默认为 medium
+  // 代码块配置
   codeBlock: {
-    copiedDone: (TkMessage) => TkMessage.success("复制成功！"),
+    enabled: true, // 是否启用新版代码块
+    collapseHeight: 700, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
+    overlay: false, // 代码块底部是否显示展开/折叠遮罩层
+    overlayHeight: 400, // 当出现遮罩层时，指定代码块显示高度，当 overlay 为 true 时生效
+    langTextTransform: "uppercase", // 语言文本显示样式，为 text-transform 的值:none, capitalize, lowercase, uppercase
+    copiedDone: TkMessage => TkMessage.success("复制成功！"), // 复制代码完成后的回调
   },
-  articleShare: { enabled: true },
-  vitePlugins: {
-    sidebarOption: {
-      initItems: false,
+  // 主题增强配置，当开启后，右上角将有主题增强面板出现。
+  themeEnhance: {
+    enabled: true, // 启用主题增强功能
+    position: "top", // 位置，top 为导航栏右侧，bottom 为右下角
+    // 布局切换配置
+    layoutSwitch: {
+      disabled: false, // 禁用布局切换
+      defaultMode: "fullWidth", // 布局切换的默认模式
+      disableHelp: false, // 禁用帮助提示
+      disableAnimation: false, // 禁用布局切换动画
+      defaultDocMaxWidth: 90, // 内容布局最大宽度的默认百分比，仅限 0-100
+      disableDocMaxWidthHelp: false, // 禁用帮助提示
+      defaultPageMaxWidth: 95, // 页面布局最大宽度的默认百分比，仅限 0-100
+      disablePageMaxWidthHelp: false, // 禁用帮助提示
+    },
+    // 布局主题色配置
+    themeColor: {
+      disabled: true, // 禁用布局主题色切换
+      defaultColorName: "vp-default", // 布局默认主题色
+      defaultSpread: false, // 是否将主题色扩散到其他元素（根据主题色计算其他元素需要的颜色）
+      disableHelp: false, // 禁用帮助提示
+      disabledInMobile: false, // 是否在移动端禁用
+    },
+    // 聚光灯配置
+    spotlight: {
+      disabled: false, // 禁用聚光灯
+      defaultStyle: "aside", //  聚光灯默认样式
+      disableHelp: false, // 禁用帮助提示
+      defaultValue: true, // 聚光灯默认开关状态
     },
   },
   // 首页 Banner 配置，位于首页顶部
@@ -100,7 +132,7 @@ export const teekConfig = defineTeekConfig({
     homeTitle: "热门标签", // 卡片标题
     moreLabel: "更多 ...", //  查看更多分类标签
     emptyLabel: "暂无标签", // 标签为空时的标签
-    limit: 10, // 一页显示的数量
+    limit: 15, // 一页显示的数量
     autoPage: false, // 是否自动翻页
     pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
   },
@@ -123,6 +155,7 @@ export const teekConfig = defineTeekConfig({
       },
     ],
   },
+  
   // 页脚配置
   footerInfo: {
     bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="http://gh.8000150.xyz/" target="_blank">ProxyGitHub</a>&nbsp;|&nbsp;<a href="https://mail.zhaizz.top/" target="_blank">Mail</a>&nbsp;|&nbsp;<a href="https://img.zhaizz.top/" target="_blank">ImgHub</a>',
@@ -136,6 +169,15 @@ export const teekConfig = defineTeekConfig({
       createYear: 2025,
       suffix: "宅宅宅的博客",
     },
+    
+  },
+  // 文章分享配置
+  articleShare: {
+    enabled: true, // 是否开启文章链接分享功能
+    text: "分享此页面", // 分享按钮文本
+    copiedText: "链接已复制", // 复制成功文本
+    query: false, // 是否包含查询参数
+    hash: false, // 是否包含哈希值
   },
   // 文章页底部的最近更新栏配置
   articleUpdate: {
@@ -144,5 +186,10 @@ export const teekConfig = defineTeekConfig({
   // 滚动到评论区配置
   toComment: {
     enabled: false, // 是否启动滚动到评论区功能
+  },
+  vitePlugins: {
+    sidebarOption: {
+      initItems: false,
+    },
   },
 });
