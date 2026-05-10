@@ -45,23 +45,14 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
+      { text: "归档", link: "/archives" },
       {
-        text: "指南",
-        link: "/guide/cmd-proxy",
-        activeMatch: "/02.指南/",
-      },
-      {
-        text: "备忘录",
-        link: "/memo/android-apk",
-        activeMatch: "/03.备忘录/"
-      },
-      {
-        text: "功能页",
+        text: "我的",
         items: [
-          { text: "归档页", link: "/archives" },
-          { text: "清单页", link: "/articleOverview" },
-          { text: "分类页", link: "/categories" },
-          { text: "标签页", link: "/tags" },
+          { text: "清单", link: "/articleOverview" },
+          { text: "ProxyGitHub", link: "http://gh.8000150.xyz/" },
+          { text: "zzz's 邮箱", link: "https://mail.zhaizz.top/" },
+          { text: "zzz's 图床", link: "https://img.zhaizz.top/" },
         ],
       },
     ],
