@@ -50,6 +50,7 @@ export default defineConfig({
         text: "我的",
         items: [
           { text: "清单", link: "/articleOverview" },
+          { text: "代理", link: "http://proxy.8000150.xyz/" },
           { text: "ProxyGitHub", link: "http://gh.8000150.xyz/" },
           { text: "zzz's 邮箱", link: "https://mail.zhaizz.top/" },
           { text: "zzz's 图床", link: "https://img.zhaizz.top/" },
