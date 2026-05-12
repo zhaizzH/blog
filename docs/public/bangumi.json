@@ -1,6 +1,6 @@
 [
   {
-    "updated_at": "2026-05-12T10:01:04+08:00",
+    "updated_at": "2026-05-12T11:16:22+08:00",
     "comment": null,
     "tags": [],
     "subject": {
@@ -43,7 +43,7 @@
         },
         {
           "name": "2026",
-          "count": 386,
+          "count": 387,
           "total_cont": 0
         },
         {
@@ -72,16 +72,187 @@
       "id": 377130,
       "eps": 13,
       "volumes": 0,
-      "collection_total": 10348,
+      "collection_total": 10356,
       "rank": 2647
     },
     "subject_id": 377130,
     "vol_status": 0,
     "ep_status": 0,
     "subject_type": 2,
-    "type": 3,
+    "type": 1,
     "rate": 0,
-    "private": false
+    "private": false,
+    "producer": "BUGFILMS"
+  },
+  {
+    "updated_at": "2026-05-12T11:10:28+08:00",
+    "comment": null,
+    "tags": [],
+    "subject": {
+      "date": "2026-01-16",
+      "images": {
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/0b/24/515759_qA1Zc.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0b/24/515759_qA1Zc.jpg",
+        "large": "https://lain.bgm.tv/pic/cover/l/0b/24/515759_qA1Zc.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0b/24/515759_qA1Zc.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/0b/24/515759_qA1Zc.jpg"
+      },
+      "name": "葬送のフリーレン 第2期",
+      "name_cn": "葬送的芙莉莲 第二季",
+      "short_summary": "「流泪道别并不适合我们，因为下次再见时会很难为情。」\r\n在勇者欣梅尔一行人击败魔王后的世界中，与欣梅尔等人一同为世界带来和平、活了千年以上的精灵魔法使──芙莉莲。\r\n在面对寿命已尽的欣梅尔之死时，因落下的泪水与心中涌现的情感，踏上了「理解人",
+      "tags": [
+        {
+          "name": "奇幻",
+          "count": 2235,
+          "total_cont": 0
+        },
+        {
+          "name": "MADHouse",
+          "count": 2095,
+          "total_cont": 0
+        },
+        {
+          "name": "漫画改",
+          "count": 2015,
+          "total_cont": 0
+        },
+        {
+          "name": "2026年1月",
+          "count": 1983,
+          "total_cont": 0
+        },
+        {
+          "name": "TV",
+          "count": 1718,
+          "total_cont": 0
+        },
+        {
+          "name": "公路片",
+          "count": 1708,
+          "total_cont": 0
+        },
+        {
+          "name": "治愈",
+          "count": 1609,
+          "total_cont": 0
+        },
+        {
+          "name": "葬送的芙莉莲",
+          "count": 1275,
+          "total_cont": 0
+        },
+        {
+          "name": "日本",
+          "count": 929,
+          "total_cont": 0
+        },
+        {
+          "name": "2026",
+          "count": 879,
+          "total_cont": 0
+        }
+      ],
+      "score": 7.5,
+      "type": 2,
+      "id": 515759,
+      "eps": 10,
+      "volumes": 0,
+      "collection_total": 30861,
+      "rank": 917
+    },
+    "subject_id": 515759,
+    "vol_status": 0,
+    "ep_status": 10,
+    "subject_type": 2,
+    "type": 2,
+    "rate": 0,
+    "private": false,
+    "producer": "MADHOUSE"
+  },
+  {
+    "updated_at": "2026-05-12T11:10:16+08:00",
+    "comment": null,
+    "tags": [],
+    "subject": {
+      "date": "2023-09-29",
+      "images": {
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
+        "large": "https://lain.bgm.tv/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/13/c5/400602_ZI8Y9.jpg"
+      },
+      "name": "葬送のフリーレン",
+      "name_cn": "葬送的芙莉莲",
+      "short_summary": "魔法使芙莉莲和勇者辛美尔等人一起，历经十年的冒险之后击败了魔王，为世界带来了和平。\r\n身为能活上一千多年的精灵族，她于是和辛美尔等人约定再次相见后，踏上了独自一人的旅途。\r\n自那以后，50年过去，芙莉莲又前往拜访辛美尔，相比于和50年前一点",
+      "tags": [
+        {
+          "name": "治愈",
+          "count": 7741,
+          "total_cont": 0
+        },
+        {
+          "name": "公路片",
+          "count": 6179,
+          "total_cont": 0
+        },
+        {
+          "name": "奇幻",
+          "count": 6124,
+          "total_cont": 0
+        },
+        {
+          "name": "MADHouse",
+          "count": 6054,
+          "total_cont": 0
+        },
+        {
+          "name": "漫画改",
+          "count": 5670,
+          "total_cont": 0
+        },
+        {
+          "name": "2023年10月",
+          "count": 4806,
+          "total_cont": 0
+        },
+        {
+          "name": "旅行",
+          "count": 4175,
+          "total_cont": 0
+        },
+        {
+          "name": "寿命论",
+          "count": 3602,
+          "total_cont": 0
+        },
+        {
+          "name": "斋藤圭一郎",
+          "count": 3100,
+          "total_cont": 0
+        },
+        {
+          "name": "TV",
+          "count": 3080,
+          "total_cont": 0
+        }
+      ],
+      "score": 8.5,
+      "type": 2,
+      "id": 400602,
+      "eps": 28,
+      "volumes": 0,
+      "collection_total": 71134,
+      "rank": 40
+    },
+    "subject_id": 400602,
+    "vol_status": 0,
+    "ep_status": 28,
+    "subject_type": 2,
+    "type": 2,
+    "rate": 0,
+    "private": false,
+    "producer": "MADHOUSE"
   },
   {
     "updated_at": "2026-05-11T19:54:23+08:00",
@@ -156,7 +327,7 @@
       "id": 456079,
       "eps": 12,
       "volumes": 0,
-      "collection_total": 4394,
+      "collection_total": 4399,
       "rank": 8048
     },
     "subject_id": 456079,
@@ -165,174 +336,7 @@
     "subject_type": 2,
     "type": 3,
     "rate": 0,
-    "private": false
-  },
-  {
-    "updated_at": "2026-05-10T15:46:37+08:00",
-    "comment": null,
-    "tags": [],
-    "subject": {
-      "date": "2026-01-16",
-      "images": {
-        "small": "https://lain.bgm.tv/r/200/pic/cover/l/0b/24/515759_qA1Zc.jpg",
-        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0b/24/515759_qA1Zc.jpg",
-        "large": "https://lain.bgm.tv/pic/cover/l/0b/24/515759_qA1Zc.jpg",
-        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0b/24/515759_qA1Zc.jpg",
-        "common": "https://lain.bgm.tv/r/400/pic/cover/l/0b/24/515759_qA1Zc.jpg"
-      },
-      "name": "葬送のフリーレン 第2期",
-      "name_cn": "葬送的芙莉莲 第二季",
-      "short_summary": "「流泪道别并不适合我们，因为下次再见时会很难为情。」\r\n在勇者欣梅尔一行人击败魔王后的世界中，与欣梅尔等人一同为世界带来和平、活了千年以上的精灵魔法使──芙莉莲。\r\n在面对寿命已尽的欣梅尔之死时，因落下的泪水与心中涌现的情感，踏上了「理解人",
-      "tags": [
-        {
-          "name": "奇幻",
-          "count": 2235,
-          "total_cont": 0
-        },
-        {
-          "name": "MADHouse",
-          "count": 2094,
-          "total_cont": 0
-        },
-        {
-          "name": "漫画改",
-          "count": 2014,
-          "total_cont": 0
-        },
-        {
-          "name": "2026年1月",
-          "count": 1982,
-          "total_cont": 0
-        },
-        {
-          "name": "TV",
-          "count": 1717,
-          "total_cont": 0
-        },
-        {
-          "name": "公路片",
-          "count": 1708,
-          "total_cont": 0
-        },
-        {
-          "name": "治愈",
-          "count": 1609,
-          "total_cont": 0
-        },
-        {
-          "name": "葬送的芙莉莲",
-          "count": 1275,
-          "total_cont": 0
-        },
-        {
-          "name": "日本",
-          "count": 929,
-          "total_cont": 0
-        },
-        {
-          "name": "2026",
-          "count": 879,
-          "total_cont": 0
-        }
-      ],
-      "score": 7.5,
-      "type": 2,
-      "id": 515759,
-      "eps": 10,
-      "volumes": 0,
-      "collection_total": 30851,
-      "rank": 917
-    },
-    "subject_id": 515759,
-    "vol_status": 0,
-    "ep_status": 0,
-    "subject_type": 2,
-    "type": 2,
-    "rate": 0,
-    "private": false
-  },
-  {
-    "updated_at": "2026-05-10T15:46:29+08:00",
-    "comment": null,
-    "tags": [],
-    "subject": {
-      "date": "2023-09-29",
-      "images": {
-        "small": "https://lain.bgm.tv/r/200/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
-        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
-        "large": "https://lain.bgm.tv/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
-        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
-        "common": "https://lain.bgm.tv/r/400/pic/cover/l/13/c5/400602_ZI8Y9.jpg"
-      },
-      "name": "葬送のフリーレン",
-      "name_cn": "葬送的芙莉莲",
-      "short_summary": "魔法使芙莉莲和勇者辛美尔等人一起，历经十年的冒险之后击败了魔王，为世界带来了和平。\r\n身为能活上一千多年的精灵族，她于是和辛美尔等人约定再次相见后，踏上了独自一人的旅途。\r\n自那以后，50年过去，芙莉莲又前往拜访辛美尔，相比于和50年前一点",
-      "tags": [
-        {
-          "name": "治愈",
-          "count": 7740,
-          "total_cont": 0
-        },
-        {
-          "name": "公路片",
-          "count": 6178,
-          "total_cont": 0
-        },
-        {
-          "name": "奇幻",
-          "count": 6124,
-          "total_cont": 0
-        },
-        {
-          "name": "MADHouse",
-          "count": 6054,
-          "total_cont": 0
-        },
-        {
-          "name": "漫画改",
-          "count": 5670,
-          "total_cont": 0
-        },
-        {
-          "name": "2023年10月",
-          "count": 4806,
-          "total_cont": 0
-        },
-        {
-          "name": "旅行",
-          "count": 4175,
-          "total_cont": 0
-        },
-        {
-          "name": "寿命论",
-          "count": 3601,
-          "total_cont": 0
-        },
-        {
-          "name": "斋藤圭一郎",
-          "count": 3099,
-          "total_cont": 0
-        },
-        {
-          "name": "TV",
-          "count": 3080,
-          "total_cont": 0
-        }
-      ],
-      "score": 8.5,
-      "type": 2,
-      "id": 400602,
-      "eps": 28,
-      "volumes": 0,
-      "collection_total": 71128,
-      "rank": 40
-    },
-    "subject_id": 400602,
-    "vol_status": 0,
-    "ep_status": 0,
-    "subject_type": 2,
-    "type": 2,
-    "rate": 0,
-    "private": false
+    "private": false,
+    "producer": "CONNECT"
   }
 ]
