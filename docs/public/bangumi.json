@@ -1,5 +1,89 @@
 [
   {
+    "updated_at": "2026-05-12T20:13:35+08:00",
+    "comment": null,
+    "tags": [],
+    "subject": {
+      "date": "2026-04-06",
+      "images": {
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/68/ba/551123_IkXfk.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/68/ba/551123_IkXfk.jpg",
+        "large": "https://lain.bgm.tv/pic/cover/l/68/ba/551123_IkXfk.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/68/ba/551123_IkXfk.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/68/ba/551123_IkXfk.jpg"
+      },
+      "name": "ポンコツ風紀委員とスカート丈が不適切なJKの話",
+      "name_cn": "木头风纪委员和迷你裙JK的故事",
+      "short_summary": "「樱大门统悟」是每天早上站在校门面前检查学生仪容的风纪委员，而「小日向微笑」则是每天都因为迷你裙不符合规定而被他拦下的不良高中生。像水和油一样合不来的两人，某天在补习时意外相遇。微笑一直以为樱大门是个正经八百、死板又爱管人的木头风纪委员，没",
+      "tags": [
+        {
+          "name": "2026年4月",
+          "count": 350,
+          "total_cont": 0
+        },
+        {
+          "name": "恋爱",
+          "count": 339,
+          "total_cont": 0
+        },
+        {
+          "name": "校园",
+          "count": 297,
+          "total_cont": 0
+        },
+        {
+          "name": "漫画改",
+          "count": 252,
+          "total_cont": 0
+        },
+        {
+          "name": "搞笑",
+          "count": 209,
+          "total_cont": 0
+        },
+        {
+          "name": "TV",
+          "count": 194,
+          "total_cont": 0
+        },
+        {
+          "name": "ZERO-G",
+          "count": 152,
+          "total_cont": 0
+        },
+        {
+          "name": "2026",
+          "count": 121,
+          "total_cont": 0
+        },
+        {
+          "name": "漫改",
+          "count": 100,
+          "total_cont": 0
+        },
+        {
+          "name": "日本",
+          "count": 96,
+          "total_cont": 0
+        }
+      ],
+      "score": 7,
+      "type": 2,
+      "id": 551123,
+      "eps": 12,
+      "volumes": 0,
+      "collection_total": 3770,
+      "rank": 2590
+    },
+    "subject_id": 551123,
+    "vol_status": 0,
+    "ep_status": 4,
+    "subject_type": 2,
+    "type": 3,
+    "rate": 0,
+    "private": false
+  },
+  {
     "updated_at": "2026-05-12T18:39:05+08:00",
     "comment": null,
     "tags": [],
@@ -72,7 +156,7 @@
       "id": 331887,
       "eps": 12,
       "volumes": 0,
-      "collection_total": 31449,
+      "collection_total": 31452,
       "rank": 255
     },
     "subject_id": 331887,
@@ -156,7 +240,7 @@
       "id": 302189,
       "eps": 11,
       "volumes": 0,
-      "collection_total": 38317,
+      "collection_total": 38321,
       "rank": 698
     },
     "subject_id": 302189,
@@ -240,7 +324,7 @@
       "id": 445905,
       "eps": 12,
       "volumes": 0,
-      "collection_total": 13004,
+      "collection_total": 13009,
       "rank": 4072
     },
     "subject_id": 445905,
@@ -249,8 +333,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "スタジオKAI"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:38:03+08:00",
@@ -276,12 +359,12 @@
         },
         {
           "name": "A-1Pictures",
-          "count": 1908,
+          "count": 1909,
           "total_cont": 0
         },
         {
           "name": "战斗",
-          "count": 1643,
+          "count": 1644,
           "total_cont": 0
         },
         {
@@ -301,7 +384,7 @@
         },
         {
           "name": "2026年1月",
-          "count": 1148,
+          "count": 1149,
           "total_cont": 0
         },
         {
@@ -325,7 +408,7 @@
       "id": 443831,
       "eps": 13,
       "volumes": 0,
-      "collection_total": 22728,
+      "collection_total": 22734,
       "rank": 1272
     },
     "subject_id": 443831,
@@ -334,8 +417,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "A-1 Pictures"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:38:01+08:00",
@@ -410,7 +492,7 @@
       "id": 357962,
       "eps": 12,
       "volumes": 0,
-      "collection_total": 15274,
+      "collection_total": 15276,
       "rank": 7546
     },
     "subject_id": 357962,
@@ -419,8 +501,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "Yostar Pictures"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:58+08:00",
@@ -495,7 +576,7 @@
       "id": 486054,
       "eps": 12,
       "volumes": 0,
-      "collection_total": 8964,
+      "collection_total": 8966,
       "rank": 5143
     },
     "subject_id": 486054,
@@ -504,8 +585,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "パッショーネ×ハヤブサフィルム"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:55+08:00",
@@ -526,27 +606,27 @@
       "tags": [
         {
           "name": "百合",
-          "count": 1911,
+          "count": 1913,
           "total_cont": 0
         },
         {
           "name": "后宫",
-          "count": 1300,
+          "count": 1302,
           "total_cont": 0
         },
         {
           "name": "校园",
-          "count": 1087,
+          "count": 1089,
           "total_cont": 0
         },
         {
           "name": "喜剧",
-          "count": 1062,
+          "count": 1064,
           "total_cont": 0
         },
         {
           "name": "恋爱",
-          "count": 962,
+          "count": 963,
           "total_cont": 0
         },
         {
@@ -580,7 +660,7 @@
       "id": 587454,
       "eps": 5,
       "volumes": 0,
-      "collection_total": 13780,
+      "collection_total": 13787,
       "rank": 1375
     },
     "subject_id": 587454,
@@ -610,32 +690,32 @@
       "tags": [
         {
           "name": "百合",
-          "count": 4356,
+          "count": 4357,
           "total_cont": 0
         },
         {
           "name": "后宫",
-          "count": 2724,
+          "count": 2725,
           "total_cont": 0
         },
         {
           "name": "校园",
-          "count": 2364,
+          "count": 2365,
           "total_cont": 0
         },
         {
           "name": "喜剧",
-          "count": 2301,
+          "count": 2302,
           "total_cont": 0
         },
         {
           "name": "恋爱",
-          "count": 1969,
+          "count": 1970,
           "total_cont": 0
         },
         {
           "name": "2025年7月",
-          "count": 1884,
+          "count": 1883,
           "total_cont": 0
         },
         {
@@ -664,7 +744,7 @@
       "id": 524707,
       "eps": 12,
       "volumes": 0,
-      "collection_total": 31340,
+      "collection_total": 31345,
       "rank": 1026
     },
     "subject_id": 524707,
@@ -748,7 +828,7 @@
       "id": 245665,
       "eps": 26,
       "volumes": 0,
-      "collection_total": 42373,
+      "collection_total": 42376,
       "rank": 1531
     },
     "subject_id": 245665,
@@ -757,8 +837,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:38+08:00",
@@ -833,7 +912,7 @@
       "id": 369768,
       "eps": 11,
       "volumes": 0,
-      "collection_total": 21141,
+      "collection_total": 21144,
       "rank": 4666
     },
     "subject_id": 369768,
@@ -842,8 +921,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:35+08:00",
@@ -918,7 +996,7 @@
       "id": 317002,
       "eps": 1,
       "volumes": 0,
-      "collection_total": 6046,
+      "collection_total": 6047,
       "rank": 2066
     },
     "subject_id": 317002,
@@ -927,8 +1005,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:31+08:00",
@@ -1012,8 +1089,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:26+08:00",
@@ -1088,7 +1164,7 @@
       "id": 328195,
       "eps": 11,
       "volumes": 0,
-      "collection_total": 24865,
+      "collection_total": 24868,
       "rank": 1446
     },
     "subject_id": 328195,
@@ -1097,8 +1173,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:22+08:00",
@@ -1182,8 +1257,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:17+08:00",
@@ -1258,7 +1332,7 @@
       "id": 441939,
       "eps": 8,
       "volumes": 0,
-      "collection_total": 15999,
+      "collection_total": 16002,
       "rank": 4081
     },
     "subject_id": 441939,
@@ -1267,8 +1341,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:13+08:00",
@@ -1352,8 +1425,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:37:09+08:00",
@@ -1428,7 +1500,7 @@
       "id": 322102,
       "eps": 1,
       "volumes": 0,
-      "collection_total": 3815,
+      "collection_total": 3816,
       "rank": 4671
     },
     "subject_id": 322102,
@@ -1437,8 +1509,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:36:55+08:00",
@@ -1522,8 +1593,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:36:50+08:00",
@@ -1598,7 +1668,7 @@
       "id": 350764,
       "eps": 7,
       "volumes": 0,
-      "collection_total": 21374,
+      "collection_total": 21377,
       "rank": 1417
     },
     "subject_id": 350764,
@@ -1607,8 +1677,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:36:46+08:00",
@@ -1692,8 +1761,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:36:43+08:00",
@@ -1777,8 +1845,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T18:36:22+08:00",
@@ -1809,12 +1876,12 @@
         },
         {
           "name": "战斗",
-          "count": 1178,
+          "count": 1179,
           "total_cont": 0
         },
         {
           "name": "热血",
-          "count": 956,
+          "count": 957,
           "total_cont": 0
         },
         {
@@ -1834,7 +1901,7 @@
         },
         {
           "name": "奇幻",
-          "count": 716,
+          "count": 717,
           "total_cont": 0
         },
         {
@@ -1853,7 +1920,7 @@
       "id": 501958,
       "eps": 1,
       "volumes": 0,
-      "collection_total": 13628,
+      "collection_total": 13632,
       "rank": 1161
     },
     "subject_id": 501958,
@@ -1862,8 +1929,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "ufotable"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T11:16:22+08:00",
@@ -1884,17 +1950,17 @@
       "tags": [
         {
           "name": "2026年4月",
-          "count": 871,
+          "count": 873,
           "total_cont": 0
         },
         {
           "name": "奇幻",
-          "count": 760,
+          "count": 761,
           "total_cont": 0
         },
         {
           "name": "漫画改",
-          "count": 734,
+          "count": 735,
           "total_cont": 0
         },
         {
@@ -1904,22 +1970,22 @@
         },
         {
           "name": "BUGFILMS",
-          "count": 540,
+          "count": 541,
           "total_cont": 0
         },
         {
           "name": "2026",
-          "count": 387,
+          "count": 388,
           "total_cont": 0
         },
         {
           "name": "魔法",
-          "count": 348,
+          "count": 349,
           "total_cont": 0
         },
         {
           "name": "漫改",
-          "count": 329,
+          "count": 330,
           "total_cont": 0
         },
         {
@@ -1938,7 +2004,7 @@
       "id": 377130,
       "eps": 13,
       "volumes": 0,
-      "collection_total": 10364,
+      "collection_total": 10385,
       "rank": 2647
     },
     "subject_id": 377130,
@@ -1947,8 +2013,7 @@
     "subject_type": 2,
     "type": 1,
     "rate": 0,
-    "private": false,
-    "producer": "BUGFILMS"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T11:10:28+08:00",
@@ -2023,7 +2088,7 @@
       "id": 515759,
       "eps": 10,
       "volumes": 0,
-      "collection_total": 30869,
+      "collection_total": 30880,
       "rank": 917
     },
     "subject_id": 515759,
@@ -2032,8 +2097,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "MADHOUSE"
+    "private": false
   },
   {
     "updated_at": "2026-05-12T11:10:16+08:00",
@@ -2054,17 +2118,17 @@
       "tags": [
         {
           "name": "治愈",
-          "count": 7741,
+          "count": 7742,
           "total_cont": 0
         },
         {
           "name": "公路片",
-          "count": 6179,
+          "count": 6181,
           "total_cont": 0
         },
         {
           "name": "奇幻",
-          "count": 6124,
+          "count": 6126,
           "total_cont": 0
         },
         {
@@ -2089,7 +2153,7 @@
         },
         {
           "name": "寿命论",
-          "count": 3602,
+          "count": 3603,
           "total_cont": 0
         },
         {
@@ -2108,7 +2172,7 @@
       "id": 400602,
       "eps": 28,
       "volumes": 0,
-      "collection_total": 71140,
+      "collection_total": 71145,
       "rank": 40
     },
     "subject_id": 400602,
@@ -2117,8 +2181,7 @@
     "subject_type": 2,
     "type": 2,
     "rate": 0,
-    "private": false,
-    "producer": "MADHOUSE"
+    "private": false
   },
   {
     "updated_at": "2026-05-11T19:54:23+08:00",
@@ -2193,7 +2256,7 @@
       "id": 456079,
       "eps": 12,
       "volumes": 0,
-      "collection_total": 4407,
+      "collection_total": 4413,
       "rank": 8048
     },
     "subject_id": 456079,
@@ -2202,7 +2265,6 @@
     "subject_type": 2,
     "type": 3,
     "rate": 0,
-    "private": false,
-    "producer": "CONNECT"
+    "private": false
   }
 ]
