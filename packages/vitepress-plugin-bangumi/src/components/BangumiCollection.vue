@@ -193,6 +193,7 @@ function ratingClass(rate: number): string {
 
 <style scoped>
 .bangumi-collection {
+  --tk-page-width: 1520px;
   max-width: 100%;
 }
 .bangumi-collection :deep(.tk-doc) {
@@ -278,8 +279,14 @@ function ratingClass(rate: number): string {
 /* ---------- Card Grid ---------- */
 .bangumi-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-template-columns: repeat(6, 1fr);
   gap: 16px;
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .bangumi-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* ---------- Card ---------- */

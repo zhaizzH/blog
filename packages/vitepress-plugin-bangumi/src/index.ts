@@ -101,8 +101,7 @@ export function BangumiPlugin(userOptions?: BangumiOptions): PluginOption {
       // DEV 模式：在 configResolved 阶段（服务启动前）拉取数据
       if (config.command === 'serve') {
         _devServerActive = true
-        const publicDir = path.join(vpConfig.srcDir, 'public')
-        return writeBangumiData(options, publicDir)
+        return writeBangumiData(options, config.publicDir)
       }
     },
 
@@ -110,8 +109,7 @@ export function BangumiPlugin(userOptions?: BangumiOptions): PluginOption {
       const vpConfig = (server.config as any).vitepress
       if (!vpConfig) return
 
-      const publicDir = path.join(vpConfig.srcDir, 'public')
-      const outputPath = path.join(publicDir, options.outputFile)
+      const outputPath = path.join(server.config.publicDir, options.outputFile)
 
       // 不监听输出的 JSON 文件
       if (server.watcher.unwatch) {
@@ -121,7 +119,7 @@ export function BangumiPlugin(userOptions?: BangumiOptions): PluginOption {
       const handler = (filePath: string) => {
         if (!filePath.endsWith('.md')) return
         console.log(`\n${TAG} 检测到 .md 变化，重新拉取数据...`)
-        writeBangumiData(options, publicDir).catch(() => {})
+        writeBangumiData(options, server.config.publicDir).catch(() => {})
       }
 
       server.watcher.on('change', handler)
