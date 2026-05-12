@@ -1,5 +1,5 @@
 ---
-title: 追番/游戏
+title: 追番
 permalink: /bangumi
 layout: page
 article: false

@@ -130,7 +130,16 @@ onMounted(async () => {
   try {
     const res = await fetch(props.src)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    items.value = await res.json()
+    const raw: any[] = await res.json()
+    // Bangumi API 返回的 name/name_cn/images/eps 在 subject 内层，
+    // 需要展开到顶层以匹配 BangumiSubject 类型
+    items.value = raw.map(item => ({
+      ...item,
+      name: item.subject?.name || '',
+      name_cn: item.subject?.name_cn || '',
+      images: item.subject?.images,
+      eps: item.subject?.eps || 0,
+    }))
   } catch (e) {
     error.value = `数据加载失败: ${(e as Error).message}`
   } finally {
