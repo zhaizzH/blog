@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { teekConfig } from "./teekConfig";
 import { RssPlugin } from 'vitepress-plugin-rss'
+import { BangumiPlugin } from 'vitepress-plugin-bangumi'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,6 +57,7 @@ export default defineConfig({
           { text: "ProxyGitHub", link: "http://gh.8000150.xyz/" },
           { text: "zzz's 邮箱", link: "https://mail.zhaizz.top/" },
           { text: "zzz's 图床", link: "https://img.zhaizz.top/" },
+          { text: "追番/游戏", link: "/bangumi" },
         ],
       },
     ],
@@ -117,6 +119,12 @@ export default defineConfig({
         title: 'zzz\' Blog',
         baseUrl: 'https://blog.zhaizz.top',
         limit: 3,
+      }),
+      BangumiPlugin({
+        userId: 'zhaizz',
+        subjectType: [2, 4],
+        limit: 50,
+        outputFile: 'bangumi.json',
       })
     ]
   },
