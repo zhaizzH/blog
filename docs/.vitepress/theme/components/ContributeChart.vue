@@ -139,7 +139,27 @@ onMounted(() => {
 
 <style>
 .tk-article-page.tk-archives {
-  width: 1220px;
+  max-width: 1220px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .tk-article-page.tk-archives {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .tk-archives .contribute__chart {
+    height: 200px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 480px) {
+  .tk-archives .contribute__chart {
+    height: 160px;
+  }
 }
 
 .tk-archives .contribute__chart {

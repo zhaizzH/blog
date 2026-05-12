@@ -20,6 +20,7 @@ import "vitepress-theme-teek/vp-plus/scrollbar.scss"; // 滚动条样式
 import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
 import "./styles/custom.css";
+import "./styles/tk-archives-responsive.css";
 import BangumiCollection from 'vitepress-plugin-bangumi/client'
 
 export default {
