@@ -152,7 +152,13 @@ onMounted(() => {
   .tk-archives .contribute__chart {
     height: 200px;
     overflow-x: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
+  }
+
+  .tk-archives .contribute__chart .chart__box {
+    min-width: 1000px;
   }
 }
 

@@ -13,9 +13,6 @@ import "vitepress-theme-teek/theme-chalk/tk-blockquote.css"; // > 引用块样�
 import "vitepress-theme-teek/theme-chalk/tk-index-rainbow.css"; // 首页图片彩虹动画
 import "vitepress-theme-teek/theme-chalk/tk-home-card-hover.css"; // 首页卡片悬停效果
 import "vitepress-theme-teek/theme-chalk/tk-fade-up-animation.css"; // 首次加载的动画效果
-import "vitepress-theme-teek/vp-plus/scrollbar.scss"; // 滚动条样式
-
-
 
 import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
