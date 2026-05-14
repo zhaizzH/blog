@@ -1,25 +1,29 @@
 /* 归档页面移动端响应式适配 */
-
 .tk-archives {
   max-width: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
 }
 
-/* 文章列表文字换行 */
+/* 文章列表文字自动换行（防止标题溢出屏幕） */
 .tk-archives__timeline__m ul li a {
   word-break: break-word;
   overflow-wrap: break-word;
+  display: block; /* 让链接完整占据容器，换行更自然 */
 }
 
-/* 星期头部（ECharts 日历图）移动端适配 */
+/* ECharts 日历贡献图移动端横向滚动适配 */
 .tk-archives .contribute__chart {
   width: 100%;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch; /* iOS 流畅滚动 */
+  scrollbar-width: none; /* 隐藏滚动条（Firefox） */
+}
+.tk-archives .contribute__chart::-webkit-scrollbar {
+  display: none; /* 隐藏滚动条（Chrome/Safari） */
 }
 
-/* 移动端：缩小年份和月份字号，减少内边距 */
+/* 平板 / 中等屏幕适配 */
 @media (max-width: 768px) {
   .tk-archives__timeline--year .year {
     font-size: 20px;
@@ -37,14 +41,8 @@
     margin: 24px 0;
   }
 
-  .tk-archives__timeline--year {
-    margin-top: 24px;
-  }
-
-  .tk-archives__timeline__m {
-    margin-top: 12px;
-  }
-
+  .tk-archives__timeline--year,
+  .tk-archives__timeline__m,
   .tk-archives__timeline__m--month {
     margin-top: 12px;
   }
@@ -54,7 +52,7 @@
   }
 }
 
-/* 小屏手机：进一步调整 */
+/* 小屏手机极致适配 */
 @media (max-width: 480px) {
   .tk-archives__timeline--year .year {
     font-size: 18px;
@@ -72,6 +70,7 @@
 
   .tk-archives__timeline__m ul li {
     line-height: 1.8;
+    margin: 4px 0; /* 增加行间距，避免拥挤 */
   }
 
   .tk-archives__timeline__m ul li a .date {
