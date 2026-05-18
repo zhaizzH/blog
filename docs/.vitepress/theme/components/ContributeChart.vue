@@ -1,6 +1,6 @@
 <script setup lang="ts" name="ContributeChart">
 import * as echarts from "echarts";
-import { ref, watch, nextTick, computed, useTemplateRef, onMounted } from "vue";
+import { ref, watch, nextTick, computed, useTemplateRef, onMounted, onUnmounted } from "vue";
 import { useData } from "vitepress";
 import { formatDate, usePosts, useIntersectionObserver } from "vitepress-theme-teek";
 
@@ -31,6 +31,7 @@ const contributeList = computed(() => {
 
 const chartRef = useTemplateRef("chartRef");
 const contributeChart = ref();
+const isMobile = ref(false);
 
 const { create } = useIntersectionObserver(
   chartRef,
@@ -51,6 +52,11 @@ const { create } = useIntersectionObserver(
   0.1
 );
 
+// 检查是否为移动端
+const checkIsMobile = () => {
+  isMobile.value = window.innerWidth <= 768;
+};
+
 // Echarts 配置项
 const option = {
   tooltip: {
@@ -67,7 +73,7 @@ const option = {
     },
   },
   calendar: {
-    left: "center",
+    left: isMobile.value ? "left" : "center",
     itemStyle: {
       color: "#ebedf0",
       borderWidth: 5,
@@ -105,6 +111,14 @@ const renderChart = (data: any) => {
   option.calendar.itemStyle.borderColor = isDark.value ? "#1b1b1f" : "#fff";
   option.calendar.itemStyle.color = isDark.value ? "#787878" : "#ebedf0";
 
+  if (isMobile.value) {
+    option.calendar.left = "50px";
+    option.calendar.right = "50px";
+  } else {
+    option.calendar.left = "center";
+    option.calendar.right = undefined;
+  }
+
   if (contributeChart.value) echarts.dispose(contributeChart.value);
   if (chartRef.value) contributeChart.value = echarts.init(chartRef.value);
 
@@ -126,8 +140,19 @@ watch(isDark, async () => {
   renderChart(contributeList.value);
 });
 
+watch(isMobile, async () => {
+  await nextTick();
+  renderChart(contributeList.value);
+});
+
 onMounted(() => {
+  checkIsMobile();
+  window.addEventListener("resize", checkIsMobile);
   if (chartRef.value) create();
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", checkIsMobile);
 });
 </script>
 
@@ -155,10 +180,12 @@ onMounted(() => {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     touch-action: pan-x;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .tk-archives .contribute__chart .chart__box {
-    min-width: 1000px;
+    min-width: 1100px;
   }
 }
 
