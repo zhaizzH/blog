@@ -19,3 +19,35 @@
     vertical-align: middle;
     /* 让图标和文字对齐更美观 */
 }
+
+/* 表格响应式处理 - 超出显示范围时显示滚动条 */
+.vp-doc table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+/* 保持表格样式 */
+.vp-doc table {
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+
+/* 表格滚动时添加阴影效果（可选） */
+.vp-doc table::-webkit-scrollbar {
+    height: 8px;
+}
+
+.vp-doc table::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.vp-doc table::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.vp-doc table::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
