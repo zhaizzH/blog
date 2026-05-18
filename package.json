@@ -16,7 +16,7 @@
     "sass": "^1.89.1",
     "vitepress": "^1.6.4",
     "vitepress-plugin-llms": "^1.7.3",
-    "vitepress-theme-teek": "^1.5.7",
+    "vitepress-theme-teek": "1.6.0",
     "wrangler": "^4.88.0"
   },
   "dependencies": {
