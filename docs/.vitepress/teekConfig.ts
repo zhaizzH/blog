@@ -129,7 +129,7 @@ export const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用标签卡片
     path: "/tags", // 标签页访问地址
     pageTitle: "全部标签", // 标签页页卡片标题
-    homeTitle: "热门标签", // 卡片标题
+    homeTitle: "全部标签", // 卡片标题
     moreLabel: "更多 ...", //  查看更多分类标签
     emptyLabel: "暂无标签", // 标签为空时的标签
     limit: 15, // 一页显示的数量

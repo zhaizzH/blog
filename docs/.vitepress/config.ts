@@ -61,8 +61,9 @@ export default defineConfig({
       {
         text: "其他",
         items: [
-          { text: "代理", link: "http://proxy.8000150.xyz/" },
-          { text: "ProxyGitHub", link: "http://gh.8000150.xyz/" },
+          { text: "IP 查询", link: "https://ip.zhaizz.top/" },
+          { text: "代理", link: "https://proxy.8000150.xyz/" },
+          { text: "ProxyGitHub", link: "https://gh.8000150.xyz/" },
         ],
       },
     ],
