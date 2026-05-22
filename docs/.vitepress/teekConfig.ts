@@ -142,6 +142,7 @@ export const teekConfig = defineTeekConfig({
   // 站点信息卡片配置
   docAnalysis: {
     enabled: true, // 是否启用站点信息卡片
+    title: "站点信息", // 卡片标题，支持字符串或函数，函数参数为 icon
     createTime: "2025-2-19", // 站点创建时间
     wordCount: true, // 是否开启文章页的字数统计
     readingTime: true, // 是否开启文章页的阅读时长统计
@@ -189,7 +190,8 @@ export const teekConfig = defineTeekConfig({
   },
   vitePlugins: {
     sidebarOption: {
-      initItems: false,
+      initItems: false, // 是否初始化第一层 items
+      collapsed: true, // 默认折叠侧边栏
     },
   },
 });

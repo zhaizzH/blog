@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       vitepress-plugin-bangumi:
-        specifier: ^0.1.2
-        version: 0.1.2(vitepress@1.6.4(@algolia/client-search@5.51.0)(postcss@8.5.12)(sass@1.99.0)(search-insights@2.17.3))(vue@3.5.33)
+        specifier: ^1.0.2
+        version: 1.0.2(vitepress@1.6.4(@algolia/client-search@5.51.0)(postcss@8.5.12)(sass@1.99.0)(search-insights@2.17.3))(vue@3.5.33)
       vitepress-plugin-rss:
         specifier: ^0.4.4
         version: 0.4.4(vitepress@1.6.4(@algolia/client-search@5.51.0)(postcss@8.5.12)(sass@1.99.0)(search-insights@2.17.3))
@@ -1718,8 +1718,8 @@ packages:
   vitepress-plugin-auto-frontmatter@1.0.13:
     resolution: {integrity: sha512-NRbaiJaPOQEAsF6kSt5lhjSkBx0kwBzHh8CLaoLwtqE7ypm+jj15VZalVf1El7WhG5ml7k1tHE7C8SxPmZ8NXw==}
 
-  vitepress-plugin-bangumi@0.1.2:
-    resolution: {integrity: sha512-N/dauB8B7utvhAq6Is00CFqZeL3cIxDatxHxkWdhpvPqymC9BIZeuHwlWoAw/1kH+X1i2RQ0X9k3z44FvSxagw==}
+  vitepress-plugin-bangumi@1.0.2:
+    resolution: {integrity: sha512-53nvEC0ABjdcZT+8Bld53VJ1MWC/dwTIrgJk+rAz0YKSegYcNelx/5LKOe9yc73qfCdNe4Su/QnIlNfx8iC4OA==}
     peerDependencies:
       vitepress: ^1.0.0
       vue: ^3.0.0
@@ -3465,9 +3465,10 @@ snapshots:
       picocolors: 1.1.1
       tinyglobby: 0.2.16
 
-  vitepress-plugin-bangumi@0.1.2(vitepress@1.6.4(@algolia/client-search@5.51.0)(postcss@8.5.12)(sass@1.99.0)(search-insights@2.17.3))(vue@3.5.33):
+  vitepress-plugin-bangumi@1.0.2(vitepress@1.6.4(@algolia/client-search@5.51.0)(postcss@8.5.12)(sass@1.99.0)(search-insights@2.17.3))(vue@3.5.33):
     dependencies:
       fs-extra: 11.3.5
+      picocolors: 1.1.1
       vitepress: 1.6.4(@algolia/client-search@5.51.0)(postcss@8.5.12)(sass@1.99.0)(search-insights@2.17.3)
       vue: 3.5.33
 
