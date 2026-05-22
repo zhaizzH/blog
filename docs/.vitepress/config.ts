@@ -54,16 +54,23 @@ export default defineConfig({
         items: [
           { text: "清单", link: "/articleOverview" },
           { text: "追番", link: "/bangumi" },
+          { text: "网站状态", link: "https://watch.zhaizz.top/" },
+          { text: "主页", link: "https://zhaizz.top/" },
+        ],
+      },
+      {
+        text: "工具",
+        items: [
           { text: "邮箱", link: "https://mail.zhaizz.top/" },
           { text: "图床", link: "https://img.zhaizz.top/" },
+          { text: "IP 查询", link: "https://ip.zhaizz.top/" },
         ],
       },
       {
         text: "其他",
         items: [
-          { text: "IP 查询", link: "https://ip.zhaizz.top/" },
           { text: "代理", link: "https://proxy.8000150.xyz/" },
-          { text: "ProxyGitHub", link: "https://gh.8000150.xyz/" },
+          { text: "GitHub 加速", link: "https://gh.8000150.xyz/" },
         ],
       },
     ],

@@ -18,12 +18,12 @@ import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
 import "./styles/custom.css";
 import "./styles/tk-archives-responsive.css";
-import BangumiCollection from 'vitepress-plugin-bangumi/client'
+import BangumiCollectionWrapper from './components/BangumiCollectionWrapper.vue'
 
 export default {
   extends: Teek,
   Layout: TeekLayoutProvider,
   enhanceApp({ app }) {
-    app.component('BangumiCollection', BangumiCollection)
+    app.component('BangumiCollection', BangumiCollectionWrapper)
   },
 };
