@@ -6,10 +6,6 @@ on:
   push:
     branches: [main]
 
-  # 每天 00:00 UTC 定时构建
-  schedule:
-    - cron: '0 16 * * *'
-
   # 允许你从 Actions 选项卡手动运行此工作流程
   workflow_dispatch:
 

@@ -92,12 +92,6 @@ export const teekConfig = defineTeekConfig({
     circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
     circleSize: 100, // 头像大小
     color: "#ffffff", // 字体颜色
-    // 状态，仅当 shape 为 circle 相关值时有效
-    status: {
-      icon: "😪", // 状态图标
-      size: 24, // 图标大小
-      title: "sleep...", // 鼠标悬停图标的提示语
-    },
   },
   // 文章配置
   post: {
