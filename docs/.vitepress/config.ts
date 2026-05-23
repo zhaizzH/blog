@@ -48,9 +48,10 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
-      { text: "归档", link: "/archives" },
+      { text: "归档", link: "/archives"},
       {
         text: "我的",
+        activeMatch: '^(?:/articleOverview|/bangumi)',
         items: [
           { text: "清单", link: "/articleOverview" },
           { text: "追番", link: "/bangumi" },
@@ -63,6 +64,7 @@ export default defineConfig({
         items: [
           { text: "邮箱", link: "https://mail.zhaizz.top/" },
           { text: "图床", link: "https://img.zhaizz.top/" },
+          { text: "快传", link: "https://paste.zhaizz.top/" },
           { text: "IP 查询", link: "https://ip.zhaizz.top/" },
         ],
       },
