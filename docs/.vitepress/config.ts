@@ -131,6 +131,7 @@ export default defineConfig({
         },
         title: 'zzz\' Blog',
         baseUrl: 'https://blog.zhaizz.top',
+        filename: 'rss.xml',
         limit: 3,
       }),
       BangumiPlugin({
