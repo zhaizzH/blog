@@ -67,7 +67,24 @@ export const teekConfig = defineTeekConfig({
     titleFontSize: "3.2rem", // 标题字体大小
     descFontSize: "2.7rem", // 描述字体大小
     descStyle: "types", // 描述信息风格：default 为纯文字渲染风格（如果 description 为数组，则取第一个），types 为文字打印风格，switch 为文字切换风格
-    description: ["Eat, sleep and drink well"], // 描述信息
+    description: [
+      "生活明朗，万物可爱",
+      "学无止境，行以致远",
+      "知足常乐，随遇而安",
+      "但行好事，莫问前程",
+      "凡心所向，素履以往",
+      "心有猛虎，细嗅蔷薇",
+      "清风徐来，水波不兴",
+      "行到水穷处，坐看云起时",
+      "星光不问赶路人，时光不负有心人",
+      "愿历尽千帆，归来仍是少年",
+      "且将新火试新茶，诗酒趁年华",
+      "人生如逆旅，我亦是行人",
+      "此心安处是吾乡",
+      "万物皆有裂痕，那是光照进来的地方",
+      "仰望星空，脚踏实地",
+      "未来可期，人间值得",
+    ], // 描述信息
     switchTime: 4000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
     typesInTime: 230, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
@@ -150,7 +167,7 @@ export const teekConfig = defineTeekConfig({
       },
     ],
   },
-  
+
   // 页脚配置
   footerInfo: {
     bottomMessage: '<a href="/sitemap.xml" target="_blank">SiteMap</a>&nbsp;|&nbsp;<a href="/rss.xml" target="_blank">RSS</a>',
@@ -164,7 +181,7 @@ export const teekConfig = defineTeekConfig({
       createYear: 2025,
       suffix: "宅宅宅的博客",
     },
-    
+
   },
   // 文章分享配置
   articleShare: {
