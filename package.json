@@ -20,7 +20,7 @@
     "wrangler": "^4.88.0"
   },
   "dependencies": {
-    "vitepress-plugin-bangumi": "^1.0.5",
+    "vitepress-plugin-bangumi": "^1.0.6",
     "vitepress-plugin-rss": "^0.4.4",
     "vue": "^3.5.16"
   }
