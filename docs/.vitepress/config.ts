@@ -48,7 +48,7 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
-      { text: "归档", link: "/archives"},
+      { text: "归档", link: "/archives" },
       {
         text: "我的",
         activeMatch: '^(?:/articleOverview|/bangumi)',
@@ -87,22 +87,25 @@ export default defineConfig({
         link: 'mailto:zhaimou81@qq.com',
       },
     ],
-    // 设置搜索框的样式
+    // 设置搜索
     search: {
-      provider: "local",
+      provider: 'local',
       options: {
+        detailedView: true,
         translations: {
           button: {
-            buttonText: "搜索",
-            buttonAriaLabel: "搜索",
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档',
           },
           modal: {
-            noResultsText: "无法找到相关结果",
-            resetButtonTitle: "清除查询条件",
+            displayDetails: '显示详情',
+            resetButtonTitle: '清除查询条件',
+            backButtonTitle: '返回',
+            noResultsText: '无法找到相关结果',
             footer: {
-              selectText: "选择",
-              navigateText: "切换",
-              closeText: "关闭",
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭',
             },
           },
         },

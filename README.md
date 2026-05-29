@@ -29,22 +29,22 @@
 | [Vue](https://vuejs.org/) | ^3.5.16 |
 | [ECharts](https://echarts.apache.org/) | ^5.6.0 |
 | [Sass](https://sass-lang.com/) | ^1.89.1 |
-| [pnpm](https://pnpm.io/) | 10 |
+| [npm](https://www.npmjs.com/) | 10 |
 
 ## 快速开始
 
 ```bash
 # 安装依赖
-pnpm install
+npm install
 
 # 启动开发服务器
-pnpm run docs:dev
+npm run docs:dev
 
 # 构建生产版本
-pnpm run docs:build
+npm run docs:build
 
 # 本地预览构建结果
-pnpm run docs:preview
+npm run docs:preview
 ```
 
 ## 部署
