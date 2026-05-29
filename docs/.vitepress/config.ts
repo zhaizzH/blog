@@ -67,14 +67,7 @@ export default defineConfig({
           { text: "快传", link: "https://paste.zhaizz.top/" },
           { text: "IP 查询", link: "https://ip.zhaizz.top/" },
         ],
-      },
-      {
-        text: "其他",
-        items: [
-          { text: "代理", link: "https://proxy.8000150.xyz/" },
-          { text: "GitHub 加速", link: "https://gh.8000150.xyz/" },
-        ],
-      },
+      }
     ],
     socialLinks: [
       {
@@ -140,6 +133,7 @@ export default defineConfig({
         userId: 'zhaizz',
         limit: 50,
         outputFile: 'bangumi.json',
+        // baseUrl:"https://pr.8000150.xyz/https%3A%2F%2Fapi.bgm.tv%2Fv0" // 使用代理,本地 dev 可连接,部署海外服务不用添加
       })
     ]
   },
