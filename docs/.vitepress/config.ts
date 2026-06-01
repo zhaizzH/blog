@@ -7,12 +7,13 @@ import { BangumiPlugin } from 'vitepress-plugin-bangumi'
 export default defineConfig({
   extends: teekConfig,
   title: "zzz's Blog",
+  description: "zzz's Blog - 一个 Java 后端开发者的技术博客与个人知识库，涵盖 Git、Docker、Maven、Spring 等开发工具学习笔记，软件安装与系统部署指南，以及 Windows 应用、代理配置等实用备忘录，同时收录追番记录与自托管服务。",
   base: "/",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "icon", type: "image/png", href: "/avatar.png" }],
     ["link", { rel: "apple-touch-icon", href: "/avatar.png" }],
-    ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'RSS 订阅', href: '/feed.rss' }]
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'rss', href: '/rss.xml' }]
   ],
   cleanUrls: true,
   lastUpdated: true,
