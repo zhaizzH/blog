@@ -68,7 +68,6 @@ export const teekConfig = defineTeekConfig({
     descFontSize: "2.7rem", // 描述字体大小
     descStyle: "types", // 描述信息风格：default 为纯文字渲染风格（如果 description 为数组，则取第一个），types 为文字打印风格，switch 为文字切换风格
     description: [
-      "生活明朗，万物可爱",
       "学无止境，行以致远",
       "知足常乐，随遇而安",
       "但行好事，莫问前程",
@@ -87,10 +86,10 @@ export const teekConfig = defineTeekConfig({
     ], // 描述信息
     switchTime: 4000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
-    typesInTime: 230, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
-    typesOutTime: 100, // 删除一个文字的时间，单位：毫秒。descStyle 为 types 时生效
-    typesNextTime: 1800, // 打字与删字的间隔时间，单位：毫秒。descStyle 为 types 时生效
-    typesShuffle: false, // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
+    typesInTime: 200, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
+    typesOutTime: 80, // 删除一个文字的时间，单位：毫秒。descStyle 为 types 时生效
+    typesNextTime: 1500, // 打字与删字的间隔时间，单位：毫秒。descStyle 为 types 时生效
+    typesShuffle: true, // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
     features: [{ title: "", details: "", link: "", image: "" }], // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
     featureCarousel: 4000, // feature 轮播间隔时间，单位：毫秒。仅在移动端生效（屏幕小于 719px）
   },
