@@ -49,6 +49,7 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
+      { text: "分类", link: "/categories" },
       { text: "归档", link: "/archives" },
       {
         text: "我的",
