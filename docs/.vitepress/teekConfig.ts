@@ -51,14 +51,8 @@ export const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用 Banner
     name: "", // Banner 标题，默认读取 vitepress 的 title 属性
     bgStyle: "fullImg", // Banner 背景风格：pure 为纯色背景，partImg 为局部图片背景，fullImg 为全屏图片背景
-    imgSrc: ["https://img.zhaizz.top/file/background/5cr3gTWL.jpg",
-      "https://img.zhaizz.top/file/background/Zb3bGhpL.png",
-      "https://img.zhaizz.top/file/background/K8aaGkgC.png",
-      "https://img.zhaizz.top/file/background/IBH24b6e.png",
-      "https://img.zhaizz.top/file/background/7FXlJ3Dh.png",
-      "https://img.zhaizz.top/file/background/k5LzTvjO.jpg"
-    ], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
-    imgInterval: 30000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
+    imgSrc: ["https://img.zhaizz.top/random?type=img&dir=background&orientation=landscape"], // Banner 图片链接，使用随机图 API 每次刷新随机获取 background 目录下的横图
+    // imgInterval: 30000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
     imgShuffle: true, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
     imgWaves: true, // 是否开启 Banner 图片波浪纹，bgStyle 为 fullImg 时生效
     mask: true, // Banner 图片遮罩，bgStyle 为 partImg 或 fullImg 时生效
