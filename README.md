@@ -84,7 +84,6 @@ blog/
 │   │   └── tagsPage.md              # 标签页
 │   ├── 01.学习/                     # 学习笔记
 │   ├── 02.指南/                     # 指南类文章
-│   ├── 03.备忘录/                   # 常用备忘录
 │   ├── public/                      # 静态资源
 │   │   ├── avatar.png               # 头像
 │   │   ├── avatar-background.png    # 头像背景
