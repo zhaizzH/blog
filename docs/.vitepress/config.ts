@@ -65,8 +65,7 @@ export default defineConfig({
         text: "工具",
         items: [
           { text: "邮箱", link: "https://mail.zhaizz.top/" },
-          { text: "图床", link: "https://img.zhaizz.top/" },
-          { text: "IP 查询", link: "https://ip.zhaizz.top/" }
+          { text: "图床", link: "https://img.zhaizz.top/" }
         ],
       }
     ],
